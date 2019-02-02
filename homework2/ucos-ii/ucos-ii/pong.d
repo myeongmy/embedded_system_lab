@@ -1,0 +1,16 @@
+.\pong.o: ..\..\pong_samplesolution\pong.c
+.\pong.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\pong.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\pong.o: C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h
+.\pong.o: C:\Keil\ARM\CMSIS\Include\core_cm4.h
+.\pong.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\pong.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\pong.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\pong.o: C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h
+.\pong.o: C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h
+.\pong.o: ..\ucos-ii\ucos_ii.h
+.\pong.o: ..\ucos-ii\os_cfg.h
+.\pong.o: ..\ucos-ii\os_cpu.h
+.\pong.o: ..\..\pong_samplesolution\GLCD.h
+.\pong.o: ..\..\pong_samplesolution\JOY.h
+.\pong.o: ..\..\pong_samplesolution\I2C.h

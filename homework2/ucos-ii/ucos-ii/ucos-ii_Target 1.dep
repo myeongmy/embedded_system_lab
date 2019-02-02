@@ -1,0 +1,148 @@
+Dependencies for Project 'ucos-ii', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f40_41xxx.s)(0x545DC4D2)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx--list .\startup_stm32f40_41xxx.lst --xref -o .\startup_stm32f40_41xxx.o --depend .\startup_stm32f40_41xxx.d)
+F (.\os_core.c)(0x54312C54)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ucos-ii-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\os_core.o --omf_browse .\os_core.crf --depend .\os_core.d)
+I (..\ucos-ii\ucos_ii.h)(0x545DC4D0)
+I (..\ucos-ii\os_cfg.h)(0x545DC4D2)
+I (..\ucos-ii\os_cpu.h)(0x545DC4D2)
+F (.\os_cpu_c.c)(0x5C060C45)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ucos-ii-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\os_cpu_c.o --omf_browse .\os_cpu_c.crf --depend .\os_cpu_c.d)
+I (..\ucos-ii\ucos_ii.h)(0x545DC4D0)
+I (..\ucos-ii\os_cfg.h)(0x545DC4D2)
+I (..\ucos-ii\os_cpu.h)(0x545DC4D2)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BE54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532BE9B2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532BE9B2)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BE54A)
+F (.\os_dbg.c)(0x545DC4D2)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ucos-ii-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\os_dbg.o --omf_browse .\os_dbg.crf --depend .\os_dbg.d)
+I (..\ucos-ii\ucos_ii.h)(0x545DC4D0)
+I (..\ucos-ii\os_cfg.h)(0x545DC4D2)
+I (..\ucos-ii\os_cpu.h)(0x545DC4D2)
+F (.\os_flag.c)(0x54312C54)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ucos-ii-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\os_flag.o --omf_browse .\os_flag.crf --depend .\os_flag.d)
+I (..\ucos-ii\ucos_ii.h)(0x545DC4D0)
+I (..\ucos-ii\os_cfg.h)(0x545DC4D2)
+I (..\ucos-ii\os_cpu.h)(0x545DC4D2)
+F (.\os_mbox.c)(0x54312C54)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ucos-ii-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\os_mbox.o --omf_browse .\os_mbox.crf --depend .\os_mbox.d)
+I (..\ucos-ii\ucos_ii.h)(0x545DC4D0)
+I (..\ucos-ii\os_cfg.h)(0x545DC4D2)
+I (..\ucos-ii\os_cpu.h)(0x545DC4D2)
+F (.\os_mem.c)(0x54312C54)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ucos-ii-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\os_mem.o --omf_browse .\os_mem.crf --depend .\os_mem.d)
+I (..\ucos-ii\ucos_ii.h)(0x545DC4D0)
+I (..\ucos-ii\os_cfg.h)(0x545DC4D2)
+I (..\ucos-ii\os_cpu.h)(0x545DC4D2)
+F (.\os_mutex.c)(0x54312C54)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ucos-ii-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\os_mutex.o --omf_browse .\os_mutex.crf --depend .\os_mutex.d)
+I (..\ucos-ii\ucos_ii.h)(0x545DC4D0)
+I (..\ucos-ii\os_cfg.h)(0x545DC4D2)
+I (..\ucos-ii\os_cpu.h)(0x545DC4D2)
+F (.\os_q.c)(0x54312C54)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ucos-ii-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\os_q.o --omf_browse .\os_q.crf --depend .\os_q.d)
+I (..\ucos-ii\ucos_ii.h)(0x545DC4D0)
+I (..\ucos-ii\os_cfg.h)(0x545DC4D2)
+I (..\ucos-ii\os_cpu.h)(0x545DC4D2)
+F (.\os_sem.c)(0x54312C54)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ucos-ii-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\os_sem.o --omf_browse .\os_sem.crf --depend .\os_sem.d)
+I (..\ucos-ii\ucos_ii.h)(0x545DC4D0)
+I (..\ucos-ii\os_cfg.h)(0x545DC4D2)
+I (..\ucos-ii\os_cpu.h)(0x545DC4D2)
+F (.\os_task.c)(0x54312C54)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ucos-ii-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\os_task.o --omf_browse .\os_task.crf --depend .\os_task.d)
+I (..\ucos-ii\ucos_ii.h)(0x545DC4D0)
+I (..\ucos-ii\os_cfg.h)(0x545DC4D2)
+I (..\ucos-ii\os_cpu.h)(0x545DC4D2)
+F (.\os_time.c)(0x54312C54)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ucos-ii-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\os_time.o --omf_browse .\os_time.crf --depend .\os_time.d)
+I (..\ucos-ii\ucos_ii.h)(0x545DC4D0)
+I (..\ucos-ii\os_cfg.h)(0x545DC4D2)
+I (..\ucos-ii\os_cpu.h)(0x545DC4D2)
+F (.\os_tmr.c)(0x54312C54)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ucos-ii-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\os_tmr.o --omf_browse .\os_tmr.crf --depend .\os_tmr.d)
+I (..\ucos-ii\ucos_ii.h)(0x545DC4D0)
+I (..\ucos-ii\os_cfg.h)(0x545DC4D2)
+I (..\ucos-ii\os_cpu.h)(0x545DC4D2)
+F (.\system_stm32f4xx.c)(0x5435D952)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ucos-ii-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\system_stm32f4xx.o --omf_browse .\system_stm32f4xx.crf --depend .\system_stm32f4xx.d)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BE54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532BE9B2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532BE9B2)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BE54A)
+F (.\os.h)(0x54312C54)()
+F (.\os_cfg.h)(0x545DC4D2)()
+F (.\os_cpu.h)(0x545DC4D2)()
+F (.\ucos_ii.h)(0x545DC4D0)()
+F (.\os_cpu_a.asm)(0x545DC4D2)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx--list .\os_cpu_a.lst --xref -o .\os_cpu_a.o --depend .\os_cpu_a.d)
+F (.\main.c)(0x5C061157)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ucos-ii-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (..\ucos-ii\ucos_ii.h)(0x545DC4D0)
+I (..\ucos-ii\os_cfg.h)(0x545DC4D2)
+I (..\ucos-ii\os_cpu.h)(0x545DC4D2)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BE54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532BE9B2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532BE9B2)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BE54A)
+I (GLCD.h)(0x532BE64E)
+F (.\GLCD_16bitIF_STM32F4xx.c)(0x543E1F38)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ucos-ii-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\glcd_16bitif_stm32f4xx.o --omf_browse .\glcd_16bitif_stm32f4xx.crf --depend .\glcd_16bitif_stm32f4xx.d)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BE54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532BE9B2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532BE9B2)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BE54A)
+I (GLCD.h)(0x532BE64E)
+I (Font_6x8_h.h)(0x532BE64E)
+I (Font_16x24_h.h)(0x532BE64E)
+F (.\I2C_STM32F4xx.c)(0x532BE64E)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ucos-ii-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\i2c_stm32f4xx.o --omf_browse .\i2c_stm32f4xx.crf --depend .\i2c_stm32f4xx.d)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BE54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532BE9B2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532BE9B2)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BE54A)
+I (I2C.h)(0x532BE64E)
+F (.\JOY.c)(0x532BE64E)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ucos-ii-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\joy.o --omf_browse .\joy.crf --depend .\joy.d)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BE54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532BE9B2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532BE9B2)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BE54A)
+I (JOY.h)(0x532BE64E)
+I (I2C.h)(0x532BE64E)
+F (..\..\pong_samplesolution\pong.c)(0x5C0616A2)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ucos-ii-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\pong.o --omf_browse .\pong.crf --depend .\pong.d)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BE54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532BE9B2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532BE9B2)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BE54A)
+I (..\ucos-ii\ucos_ii.h)(0x545DC4D0)
+I (..\ucos-ii\os_cfg.h)(0x545DC4D2)
+I (..\ucos-ii\os_cpu.h)(0x545DC4D2)
+I (..\..\pong_samplesolution\GLCD.h)(0x532BE64E)
+I (..\..\pong_samplesolution\JOY.h)(0x532BE64E)
+I (..\..\pong_samplesolution\I2C.h)(0x532BE64E)
+F (..\..\tetris_samplesolution\tetris\tetris.c)(0x5C0616D6)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I..\ucos-ii-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\tetris.o --omf_browse .\tetris.crf --depend .\tetris.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7B744)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7B744)
+I (..\ucos-ii\ucos_ii.h)(0x545DC4D0)
+I (..\ucos-ii\os_cfg.h)(0x545DC4D2)
+I (..\ucos-ii\os_cpu.h)(0x545DC4D2)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532BE54A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532BE9B2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532BE9B2)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532BE9B2)
+I (C:\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532BE54A)
+I (..\..\tetris_samplesolution\tetris\GLCD.h)(0x532BE64E)
+I (..\..\tetris_samplesolution\tetris\JOY.h)(0x532BE64E)
+I (..\..\tetris_samplesolution\tetris\I2C.h)(0x532BE64E)
